@@ -8,9 +8,6 @@ def product_details(product_id, name, quantity, price):
     return result
 
 
-if _name_ == "_main_":
-    product_id = "P101"
-    name = "Laptop"
-    quantity = 2
-    price = 55000
-    print(product_details(product_id, name, quantity, price))
+if __name__ == "__main__":
+    # Example call
+    print(product_details(101, "Laptop", 5, 55000))
